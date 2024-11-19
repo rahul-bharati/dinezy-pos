@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9b72120-4ebe-4780-ab16-2391c5a86760" name="Changes" comment="Add upload outlet document page">
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/top-nav-bar/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/top-nav-bar/top-nav-bar.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/top-nav-bar/top-nav-bar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(auth)/sign-in/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/auth-side-features/auth-side-features.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/auth-side-features/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-in-form/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theme.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/top-nav-bar/top-nav-bar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top-nav-bar/top-nav-bar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/top-nav-bar/top-nav-bar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top-nav-bar/top-nav-bar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +27,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="JavaScript File" />
-        <option value="SCSS File" />
+        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -39,7 +46,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/rahul-bharati/dinezy-pos.git&quot;,
-    &quot;accountId&quot;: &quot;c24bd98b-5bcb-4006-b297-fd5328871aae&quot;
+    &quot;accountId&quot;: &quot;18fde1a0-39a1-4a11-8551-635d9e108b69&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -59,19 +66,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;23.2.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.9.0&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rahulbharati/Files/projects/dinezy-pos/frontend/src/app&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.11.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.9.1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/files/projects/dinezy-pos&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;/Users/rahulbharati/.nvm/versions/node/v23.2.0/bin/node&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/rahulbharati/Files/projects/dinezy-pos/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/rahulbharati/Files/projects/dinezy-pos/node_modules/typescript/lib&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\files\\projects\\dinezy-pos\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\files\\projects\\dinezy-pos\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -107,6 +115,9 @@
       <workItem from="1731945656824" duration="112000" />
       <workItem from="1731945773824" duration="1829000" />
       <workItem from="1731947614949" duration="22125000" />
+      <workItem from="1732043274588" duration="975000" />
+      <workItem from="1732044270595" duration="258000" />
+      <workItem from="1732044537028" duration="6039000" />
     </task>
     <task id="LOCAL-00001" summary="Create basic register and login page only UI">
       <option name="closed" value="true" />

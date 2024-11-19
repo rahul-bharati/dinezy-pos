@@ -2,12 +2,30 @@
 
 html {
   background-image: radial-gradient(
-    circle,
-    $color-primary 0%,
-    $color-dark 80%
+                  circle,
+                  $color-primary 0%,
+                  $color-dark 80%
   );
   background-repeat: no-repeat;
   background-color: $color-dark;
   color: $color-primary-accent;
   min-height: 100vh;
+}
+
+.center-main-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.glass-background {
+    background: rgba($color-dark, .4);
+    border: 1px solid rgba($color-primary-accent, .3);
+    box-shadow: 10px 10px 20px rgba($color-dark, .5);
+    color: $color-primary-accent;
+  border-radius: 24px;
+}
+
+.text-white {
+    color: $color-primary-accent;
 }

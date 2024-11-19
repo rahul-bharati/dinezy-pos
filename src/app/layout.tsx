@@ -1,9 +1,12 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { ThemeProvider } from '@mui/material/styles'
+
+import TopNavBar from '@/components/top-nav-bar'
+import theme from '@/theme'
 
 import '@/styles/globals.scss'
-import TopNavBar from '@/components/top-nav-bar'
-import { createTheme, ThemeProvider } from '@mui/material/styles'
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter'
 
 export const metadata: Metadata = {
   title: 'Dinezy POS - Point of Sale System',
@@ -22,23 +25,15 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
 
-  const theme = createTheme({
-    palette: {
-      primary: {
-        main: '#0A2463',
-        light: '#FFFAFF',
-        dark: '#1E1B18',
-      },
-    },
-  })
-
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ThemeProvider theme={theme}>
-          <TopNavBar />
-          {children}
-        </ThemeProvider>
+        <AppRouterCacheProvider>
+          <ThemeProvider theme={theme}>
+            <TopNavBar />
+            {children}
+          </ThemeProvider>
+        </AppRouterCacheProvider>
       </body>
     </html>
   )

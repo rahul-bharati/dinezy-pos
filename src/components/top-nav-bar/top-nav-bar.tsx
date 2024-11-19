@@ -40,23 +40,31 @@ export default function TopNavBar() {
           className={styles.topNavBar}
         >
           <Box
-            sx={{ flexGrow: 1, display: 'flex', alignItems: 'center', px: 0 }}
+            sx={{ flexGrow: 1, display: 'flex', alignItems: 'center', px: 0, justifyContent: 'space-between' }}
           >
-            <Typography variant={'h6'} className={styles.brand}>
+            <Typography className={styles.brand}>
               Dinezy
             </Typography>
-            <Box sx={{ display: { sx: 'none', md: 'flex' } }}>
-              <Button variant={'text'} size={'small'}>
+            <Box sx={{ display: { sx: 'none', md: 'flex' }, gap: 1 }}>
+              <Button variant={'text'} size={'small'} sx={{textTransform: "capitalize"}}>
                 Home
               </Button>
-              <Button variant={'text'} size={'small'}>
+              <Button variant={'text'} size={'small'} sx={{textTransform: "capitalize"}}>
                 Features
               </Button>
-              <Button variant={'text'} size={'small'}>
+              <Button variant={'text'} size={'small'} sx={{textTransform: "capitalize"}}>
                 Pricing
               </Button>
-              <Button variant={'text'} size={'small'}>
+              <Button variant={'text'} size={'small'} sx={{textTransform: "capitalize",  minWidth: 0}}>
                 Blog
+              </Button>
+            </Box>
+            <Box sx={{display: {xs: 'none', md: 'flex'}, gap: 1, alignItems: 'center'}}>
+              <Button href={"/sign-in"} color={"primary"} variant={'text'} size={'small'} sx={{textTransform: "capitalize"}}>
+                Sign in
+              </Button>
+              <Button color={"primary"} variant={'contained'} size={'small'} sx={{textTransform: "capitalize"}}>
+                Sign up
               </Button>
             </Box>
           </Box>
