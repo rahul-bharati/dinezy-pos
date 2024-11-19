@@ -1,0 +1,13 @@
+@import "./variables.scss";
+
+html {
+  background-image: radial-gradient(
+    circle,
+    $color-primary 0%,
+    $color-dark 80%
+  );
+  background-repeat: no-repeat;
+  background-color: $color-dark;
+  color: $color-primary-accent;
+  min-height: 100vh;
+}
