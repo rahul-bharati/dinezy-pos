@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9b72120-4ebe-4780-ab16-2391c5a86760" name="Changes" comment="Add upload outlet document page">
+      <change beforePath="$PROJECT_DIR$/.env.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/adonisrc.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/exceptions/handler.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/middleware/container_bindings_middleware.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bin/console.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bin/server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bin/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/app.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/bodyparser.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/hash.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/logger.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/start/env.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/start/kernel.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/start/routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/bootstrap.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/next.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/globe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/window.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/login/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/register/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/page.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/restaurant/[restaurant-id]/edit/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/restaurant/[restaurant-id]/outlets/[outlet-id]/document-upload/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/restaurant/[restaurant-id]/outlets/[outlet-id]/edit/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/restaurant/[restaurant-id]/outlets/add/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/restaurant/[restaurant-id]/outlets/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/restaurant/add/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/restaurant/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/navbar/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/navbar/navbar.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/navbar/navbar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/nginx.conf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="SCSS File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rahul-bharati&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rahul-bharati/dinezy-pos.git&quot;,
+    &quot;accountId&quot;: &quot;c24bd98b-5bcb-4006-b297-fd5328871aae&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2p1txT2IvWcSHG9eOb7Bcy9XXXI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "23.2.0",
+    "javascript.nodejs.core.library.typings.version": "22.9.0",
+    "last_opened_file_path": "/Users/rahulbharati/Files/projects/dinezy-pos/frontend/src/app",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/Users/rahulbharati/.nvm/versions/node/v23.2.0/bin/node",
+    "nodejs_package_manager_path": "pnpm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Users/rahulbharati/Files/projects/dinezy-pos/frontend/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TypeScript JSX"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/app/restaurant/[restaurant-id]" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9b72120-4ebe-4780-ab16-2391c5a86760" name="Changes" comment="" />
+      <created>1731945655653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731945655653</updated>
+      <workItem from="1731945656824" duration="112000" />
+      <workItem from="1731945773824" duration="1829000" />
+      <workItem from="1731947614949" duration="12547000" />
+    </task>
+    <task id="LOCAL-00001" summary="Create basic register and login page only UI">
+      <option name="closed" value="true" />
+      <created>1731951036185</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731951036185</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add Restaurant and Outlet List, Add, Update Page">
+      <option name="closed" value="true" />
+      <created>1731955569111</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731955569111</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add upload outlet document page">
+      <option name="closed" value="true" />
+      <created>1731956691897</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731956691897</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create basic register and login page only UI" />
+    <MESSAGE value="Add Restaurant and Outlet List, Add, Update Page" />
+    <MESSAGE value="Add upload outlet document page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add upload outlet document page" />
+  </component>
+</project>
