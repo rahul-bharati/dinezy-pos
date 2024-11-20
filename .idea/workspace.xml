@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b72120-4ebe-4780-ab16-2391c5a86760" name="Changes" comment="Dashboard&#10;- Side Menu&#10;Styling&#10;- Custom UI themes">
-      <change afterPath="$PROJECT_DIR$/src/app/dashboard/new/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar-bread-crumbs/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar-bread-crumbs/navbar-bread-crumbs.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/themes/breadcrumbs.ts" afterDir="false" />
+    <list default="true" id="b9b72120-4ebe-4780-ab16-2391c5a86760" name="Changes" comment="Add new Restaurant">
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/[restaurant-id]/new/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/outlet-form/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/outlet-form/outlet-document.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/outlet-form/outlet-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/outlet-form/owner-form.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/dashboard/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/dashboard/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/outlet-select/outlet-select.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/outlet-select/outlet-select.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sidemenu/sidemenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidemenu/sidemenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/themes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/themes/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +22,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="SCSS File" />
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -122,7 +117,7 @@
       <workItem from="1732043274588" duration="975000" />
       <workItem from="1732044270595" duration="258000" />
       <workItem from="1732044537028" duration="6186000" />
-      <workItem from="1732079840879" duration="18660000" />
+      <workItem from="1732079840879" duration="22156000" />
     </task>
     <task id="LOCAL-00001" summary="Create basic register and login page only UI">
       <option name="closed" value="true" />
@@ -172,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732097219049</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add new Restaurant">
+      <option name="closed" value="true" />
+      <created>1732101633638</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732101633638</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +188,7 @@
     <MESSAGE value="Add Sign in page" />
     <MESSAGE value="Add Sign Up Page" />
     <MESSAGE value="Dashboard&#10;- Side Menu&#10;Styling&#10;- Custom UI themes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dashboard&#10;- Side Menu&#10;Styling&#10;- Custom UI themes" />
+    <MESSAGE value="Add new Restaurant" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new Restaurant" />
   </component>
 </project>
