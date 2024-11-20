@@ -60,12 +60,18 @@ const OutletSelect = () => {
         </ListItemAvatar>
         <ListItemText primary={'4 States'} secondary={'Vasai'} />
       </MenuItem>
+      <MenuItem onClick={() => router.push('/dashboard/123/new')}>
+        <ListItemIcon>
+          <AddRounded />
+        </ListItemIcon>
+        <ListItemText primary="Add Outlet" secondary={'Not Restaurant'} />
+      </MenuItem>
       <Divider sx={{ mx: -1 }} />
       <MenuItem onClick={() => router.push('/dashboard/new')}>
         <ListItemIcon>
           <AddRounded />
         </ListItemIcon>
-        <ListItemText primary="Add Restaurant" secondary={'new restaurant'} />
+        <ListItemText primary="Add Restaurant" secondary={'Not Outlet'} />
       </MenuItem>
     </Select>
   )
