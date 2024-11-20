@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b72120-4ebe-4780-ab16-2391c5a86760" name="Changes" comment="Add Menu page and basic menu components">
-      <change afterPath="$PROJECT_DIR$/src/app/dashboard/inventory/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/inventory-table/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/inventory-table/inventory-table.tsx" afterDir="false" />
+    <list default="true" id="b9b72120-4ebe-4780-ab16-2391c5a86760" name="Changes" comment="Add Inventory page and basic Inventory table">
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/billing/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mock/data.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/mock/data.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732123408544</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add Inventory page and basic Inventory table">
+      <option name="closed" value="true" />
+      <created>1732127159421</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732127159421</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +212,7 @@
     <MESSAGE value="Add new Restaurant" />
     <MESSAGE value="Add new Outlet" />
     <MESSAGE value="Add Menu page and basic menu components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Menu page and basic menu components" />
+    <MESSAGE value="Add Inventory page and basic Inventory table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Inventory page and basic Inventory table" />
   </component>
 </project>
