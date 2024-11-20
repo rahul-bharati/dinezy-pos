@@ -4,14 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b72120-4ebe-4780-ab16-2391c5a86760" name="Changes" comment="Add Sign in page">
-      <change afterPath="$PROJECT_DIR$/src/app/(auth)/sign-up/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sign-up-form/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.tsx" afterDir="false" />
+    <list default="true" id="b9b72120-4ebe-4780-ab16-2391c5a86760" name="Changes" comment="Add Sign Up Page">
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/outlet-select/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/outlet-select/outlet-select.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/side-menu-content/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/side-menu-content/side-menu-content.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sidemenu/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sidemenu/sidemenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/themes/avatar.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/themes/customizations/dataDisplay.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/themes/customizations/feedback.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/themes/customizations/input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/themes/customizations/navigation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/themes/customizations/surfaces.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/themes/drawer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/themes/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/themes/primitives.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/themes/theme.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/top-nav-bar/top-nav-bar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top-nav-bar/top-nav-bar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/top-nav-bar/top-nav-bar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top-nav-bar/top-nav-bar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +42,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="SCSS File" />
         <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
-        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -43,6 +63,9 @@
     &quot;accountId&quot;: &quot;18fde1a0-39a1-4a11-8551-635d9e108b69&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -89,6 +112,7 @@
       <recent name="$PROJECT_DIR$/frontend/src/app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\files\projects\dinezy-pos\src\themes" />
       <recent name="$PROJECT_DIR$/src/styles" />
       <recent name="$PROJECT_DIR$/frontend/src/app/restaurant/[restaurant-id]" />
     </key>
@@ -114,7 +138,7 @@
       <workItem from="1732043274588" duration="975000" />
       <workItem from="1732044270595" duration="258000" />
       <workItem from="1732044537028" duration="6186000" />
-      <workItem from="1732079840879" duration="2215000" />
+      <workItem from="1732079840879" duration="14242000" />
     </task>
     <task id="LOCAL-00001" summary="Create basic register and login page only UI">
       <option name="closed" value="true" />
@@ -148,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732050788570</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Sign Up Page">
+      <option name="closed" value="true" />
+      <created>1732082145881</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732082145881</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +191,7 @@
     <MESSAGE value="Add Restaurant and Outlet List, Add, Update Page" />
     <MESSAGE value="Add upload outlet document page" />
     <MESSAGE value="Add Sign in page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Sign in page" />
+    <MESSAGE value="Add Sign Up Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Sign Up Page" />
   </component>
 </project>

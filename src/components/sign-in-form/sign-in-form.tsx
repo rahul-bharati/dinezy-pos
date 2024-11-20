@@ -5,10 +5,10 @@ import {
   FormControl,
   FormControlLabel,
   FormLabel,
-  Link,
   TextField,
   Typography,
 } from '@mui/material'
+import Link from 'next/link'
 
 const SignInForm = () => {
   return (
@@ -40,6 +40,7 @@ const SignInForm = () => {
             required
             size={'small'}
             fullWidth={true}
+            placeholder="your@email.com"
           />
         </FormControl>
         <FormControl>
@@ -51,6 +52,7 @@ const SignInForm = () => {
             margin={'dense'}
             required
             size={'small'}
+            color={'primary'}
           />
         </FormControl>
         <FormControlLabel

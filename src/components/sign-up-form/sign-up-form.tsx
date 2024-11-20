@@ -1,14 +1,12 @@
 import {
   Box,
   Button,
-  Checkbox,
   FormControl,
-  FormControlLabel,
   FormLabel,
-  Link,
   TextField,
   Typography,
 } from '@mui/material'
+import Link from 'next/link'
 
 const SignUpForm = () => {
   return (
@@ -140,10 +138,11 @@ const SignUpForm = () => {
           </Box>
         </Box>
         <Button
-          type="submit"
+          // type="submit"
           fullWidth
           variant="contained"
           sx={{ textTransform: 'capitalize' }}
+          href={'/restaurants'}
         >
           Sign up
         </Button>
