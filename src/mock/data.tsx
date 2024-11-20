@@ -210,3 +210,107 @@ export const mockMenuData = [
     price: 50,
   },
 ];
+
+
+export const mockInventoryData = [
+  {
+    name: 'Paneer',
+    quantity: 50,
+    unit: 'kg',
+  },
+  {
+    name: 'Chicken',
+    quantity: 100,
+    unit: 'kg',
+  },
+  {
+    name: 'Eggs',
+    quantity: 200,
+    unit: 'pcs',
+  },
+  {
+    name: 'Rice',
+    quantity: 500,
+    unit: 'kg',
+  },
+  {
+    name: 'Milk',
+    quantity: 300,
+    unit: 'liters',
+  },
+  {
+    name: 'Butter',
+    quantity: 50,
+    unit: 'kg',
+  },
+  {
+    name: 'Flour',
+    quantity: 400,
+    unit: 'kg',
+  },
+  {
+    name: 'Sugar',
+    quantity: 250,
+    unit: 'kg',
+  },
+  {
+    name: 'Salt',
+    quantity: 100,
+    unit: 'kg',
+  },
+  {
+    name: 'Spices',
+    quantity: 75,
+    unit: 'kg',
+  },
+  {
+    name: 'Paneer',
+    quantity: 50,
+    unit: 'kg',
+  },
+  {
+    name: 'Chicken',
+    quantity: 100,
+    unit: 'kg',
+  },
+  {
+    name: 'Eggs',
+    quantity: 200,
+    unit: 'pcs',
+  },
+  {
+    name: 'Rice',
+    quantity: 500,
+    unit: 'kg',
+  },
+  {
+    name: 'Milk',
+    quantity: 300,
+    unit: 'liters',
+  },
+  {
+    name: 'Butter',
+    quantity: 50,
+    unit: 'kg',
+  },
+  {
+    name: 'Flour',
+    quantity: 400,
+    unit: 'kg',
+  },
+  {
+    name: 'Sugar',
+    quantity: 250,
+    unit: 'kg',
+  },
+  {
+    name: 'Salt',
+    quantity: 100,
+    unit: 'kg',
+  },
+  {
+    name: 'Spices',
+    quantity: 75,
+    unit: 'kg',
+  },
+];
