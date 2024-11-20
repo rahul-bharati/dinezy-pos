@@ -4,34 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b72120-4ebe-4780-ab16-2391c5a86760" name="Changes" comment="Add Sign Up Page">
-      <change afterPath="$PROJECT_DIR$/src/app/dashboard/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/dashboard/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/outlet-select/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/outlet-select/outlet-select.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/side-menu-content/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/side-menu-content/side-menu-content.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sidemenu/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sidemenu/sidemenu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/themes/avatar.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/themes/customizations/dataDisplay.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/themes/customizations/feedback.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/themes/customizations/input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/themes/customizations/navigation.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/themes/customizations/surfaces.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/themes/drawer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/themes/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/themes/primitives.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/themes/theme.tsx" afterDir="false" />
+    <list default="true" id="b9b72120-4ebe-4780-ab16-2391c5a86760" name="Changes" comment="Dashboard&#10;- Side Menu&#10;Styling&#10;- Custom UI themes">
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/new/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navbar-bread-crumbs/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navbar-bread-crumbs/navbar-bread-crumbs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/themes/breadcrumbs.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/top-nav-bar/top-nav-bar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top-nav-bar/top-nav-bar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/top-nav-bar/top-nav-bar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top-nav-bar/top-nav-bar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/dashboard/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/dashboard/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/outlet-select/outlet-select.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/outlet-select/outlet-select.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sidemenu/sidemenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidemenu/sidemenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/themes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/themes/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +27,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="SCSS File" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -138,7 +122,7 @@
       <workItem from="1732043274588" duration="975000" />
       <workItem from="1732044270595" duration="258000" />
       <workItem from="1732044537028" duration="6186000" />
-      <workItem from="1732079840879" duration="14242000" />
+      <workItem from="1732079840879" duration="18660000" />
     </task>
     <task id="LOCAL-00001" summary="Create basic register and login page only UI">
       <option name="closed" value="true" />
@@ -180,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732082145881</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Dashboard&#10;- Side Menu&#10;Styling&#10;- Custom UI themes">
+      <option name="closed" value="true" />
+      <created>1732097219049</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732097219049</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +184,7 @@
     <MESSAGE value="Add upload outlet document page" />
     <MESSAGE value="Add Sign in page" />
     <MESSAGE value="Add Sign Up Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Sign Up Page" />
+    <MESSAGE value="Dashboard&#10;- Side Menu&#10;Styling&#10;- Custom UI themes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dashboard&#10;- Side Menu&#10;Styling&#10;- Custom UI themes" />
   </component>
 </project>

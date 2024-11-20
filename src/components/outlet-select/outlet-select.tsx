@@ -1,31 +1,26 @@
 import {
+  Divider,
   ListItemText,
   ListSubheader,
   MenuItem,
   Select,
-  SelectChangeEvent,
   selectClasses,
 } from '@mui/material'
-import { useState } from 'react'
 import { Avatar, ListItemAvatar } from '@/themes'
-import { StorefrontOutlined } from '@mui/icons-material'
+import { StorefrontOutlined, AddRounded } from '@mui/icons-material'
+import ListItemIcon from '@mui/material/ListItemIcon'
+import { useRouter } from 'next/navigation'
 
 const OutletSelect = () => {
-  const [outlet, setOutlet] = useState('')
-
-  const handleChange = (event: SelectChangeEvent) => {
-    setOutlet(event.target.value)
-  }
+  const router = useRouter()
 
   return (
     <Select
       labelId={'outlet-select'}
       id={'outlet-select'}
-      value={outlet}
       displayEmpty
       inputProps={{ 'aria-label': 'Select Outlet' }}
       fullWidth={true}
-      onChange={handleChange}
       sx={{
         maxHeight: 58,
         width: 215,
@@ -57,13 +52,20 @@ const OutletSelect = () => {
         </ListItemAvatar>
         <ListItemText primary={'4 States'} secondary={'Vasai'} />
       </MenuItem>
-      <MenuItem value={'2'}>
+      <MenuItem value={'2'} >
         <ListItemAvatar>
           <Avatar alt={'4 States'}>
             <StorefrontOutlined sx={{ fontSize: '1rem' }} />
           </Avatar>
         </ListItemAvatar>
         <ListItemText primary={'4 States'} secondary={'Vasai'} />
+      </MenuItem>
+      <Divider sx={{ mx: -1 }} />
+      <MenuItem onClick={() => router.push('/dashboard/new')}>
+        <ListItemIcon>
+          <AddRounded />
+        </ListItemIcon>
+        <ListItemText primary="Add Restaurant" secondary={'new restaurant'} />
       </MenuItem>
     </Select>
   )

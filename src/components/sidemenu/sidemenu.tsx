@@ -1,12 +1,19 @@
 'use client'
 
-import { Box, Divider, Typography } from '@mui/material'
+import { Box, Divider } from '@mui/material'
 import { Drawer } from '@/themes'
 import { drawerClasses } from '@mui/material/Drawer'
 import OutletSelect from '@/components/outlet-select'
 import SideMenuContent from '@/components/side-menu-content'
+import { usePathname } from 'next/navigation'
 
 const Sidemenu = () => {
+
+  const path = usePathname();
+  if(path.includes('new')) {
+    return null;
+  }
+
   return (
     <Drawer
       variant={'permanent'}
@@ -28,10 +35,6 @@ const Sidemenu = () => {
       </Box>
       <Divider />
       <SideMenuContent />
-
-      {/*<Typography>Orders</Typography>*/}
-      {/*<Typography>Menu</Typography>*/}
-      {/*<Typography>Settings</Typography>*/}
     </Drawer>
   )
 }
