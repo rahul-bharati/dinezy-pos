@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b72120-4ebe-4780-ab16-2391c5a86760" name="Changes" comment="Add upload outlet document page">
-      <change afterPath="$PROJECT_DIR$/src/app/(auth)/sign-in/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/auth-side-features/auth-side-features.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/auth-side-features/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sign-in-form/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme.tsx" afterDir="false" />
+    <list default="true" id="b9b72120-4ebe-4780-ab16-2391c5a86760" name="Changes" comment="Add Sign in page">
+      <change afterPath="$PROJECT_DIR$/src/app/(auth)/sign-up/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-up-form/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/top-nav-bar/top-nav-bar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top-nav-bar/top-nav-bar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/top-nav-bar/top-nav-bar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top-nav-bar/top-nav-bar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,36 +54,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.11.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.9.1&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/files/projects/dinezy-pos&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\files\\projects\\dinezy-pos\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\files\\projects\\dinezy-pos\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.nodejs.core.library.configured.version": "22.11.0",
+    "javascript.nodejs.core.library.typings.version": "22.9.1",
+    "last_opened_file_path": "D:/files/projects/dinezy-pos/src/app/(auth)",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "pnpm",
+    "prettierjs.PrettierConfiguration.Package": "D:\\files\\projects\\dinezy-pos\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "terminal",
+    "ts.external.directory.path": "D:\\files\\projects\\dinezy-pos\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;TypeScript JSX&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TypeScript JSX"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\files\projects\dinezy-pos\src\app\(auth)" />
+      <recent name="D:\files\projects\dinezy-pos\src\components" />
       <recent name="$PROJECT_DIR$/frontend/src/app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -117,7 +113,8 @@
       <workItem from="1731947614949" duration="22125000" />
       <workItem from="1732043274588" duration="975000" />
       <workItem from="1732044270595" duration="258000" />
-      <workItem from="1732044537028" duration="6039000" />
+      <workItem from="1732044537028" duration="6186000" />
+      <workItem from="1732079840879" duration="2215000" />
     </task>
     <task id="LOCAL-00001" summary="Create basic register and login page only UI">
       <option name="closed" value="true" />
@@ -143,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731956691897</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Sign in page">
+      <option name="closed" value="true" />
+      <created>1732050788570</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732050788570</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +158,7 @@
     <MESSAGE value="Create basic register and login page only UI" />
     <MESSAGE value="Add Restaurant and Outlet List, Add, Update Page" />
     <MESSAGE value="Add upload outlet document page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add upload outlet document page" />
+    <MESSAGE value="Add Sign in page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Sign in page" />
   </component>
 </project>
