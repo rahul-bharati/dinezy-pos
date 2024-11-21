@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b72120-4ebe-4780-ab16-2391c5a86760" name="Changes" comment="Add Inventory page and basic Inventory table">
-      <change afterPath="$PROJECT_DIR$/src/app/dashboard/billing/page.tsx" afterDir="false" />
+    <list default="true" id="b9b72120-4ebe-4780-ab16-2391c5a86760" name="Changes" comment="Billing page&#10;- Order type section&#10;- Customer section&#10;- Search Item">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/dashboard/billing/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/dashboard/billing/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732127159421</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Billing page&#10;- Order type section&#10;- Customer section&#10;- Search Item">
+      <option name="closed" value="true" />
+      <created>1732131482441</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732131482441</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +221,7 @@
     <MESSAGE value="Add new Outlet" />
     <MESSAGE value="Add Menu page and basic menu components" />
     <MESSAGE value="Add Inventory page and basic Inventory table" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Inventory page and basic Inventory table" />
+    <MESSAGE value="Billing page&#10;- Order type section&#10;- Customer section&#10;- Search Item" />
+    <option name="LAST_COMMIT_MESSAGE" value="Billing page&#10;- Order type section&#10;- Customer section&#10;- Search Item" />
   </component>
 </project>
